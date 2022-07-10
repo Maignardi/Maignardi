@@ -21,11 +21,8 @@ I'm a self-taught passionate Mobile developer from Brazil.
 
 
 <a href="https://github.com/Maignardi/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maignardi&repo=github-readme-stats&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=maignardi&repo=github-readme-stats&theme=buefy" />
 </a>
 <a href="https://github.com/Maignardi/Maignardi.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Maignardi&repo=Maignardi.github.io&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=maignardi&repo=Maignardi.github.io&theme=buefy" />
 </a>
-
-<br />
-<br />
