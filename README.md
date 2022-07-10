@@ -16,13 +16,3 @@ I'm a self-taught passionate Mobile developer from Brazil.
 
 | <a href="https://github.com/Maignardi/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Maignardi&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/Maignardi/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maignardi&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
-
-#### Top Repositories
-
-
-<a href="https://github.com/Maignardi/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=maignardi&repo=github-readme-stats&theme=buefy" />
-</a>
-<a href="https://github.com/Maignardi/Maignardi.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=maignardi&repo=Maignardi.github.io&theme=buefy" />
-</a>
