@@ -1,5 +1,5 @@
 
-I'm a self-taught passionate Mobile developer from Brazil.
+Mobile developer from Brazil.
 
 **About me**
 
