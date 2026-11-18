@@ -82,7 +82,7 @@ Android **binary hardening suite** that goes beyond R8/ProGuard.
 ![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Tink](https://img.shields.io/badge/Google_Tink-4285F4?style=flat-square&logo=google&logoColor=white)
 ![DataStore](https://img.shields.io/badge/Jetpack_DataStore-4285F4?style=flat-square&logo=android&logoColor=white)
-[![JitPack](https://jitpack.io/v/Maignardi/MaigSecurityCrypto.svg)](https://jitpack.io/#Maignardi/MaigSecurityCrypto)
+[![Release](https://img.shields.io/github/v/tag/Maignardi/MaigSecurityCrypto?label=release&style=flat-square&color=2ea44f)](https://github.com/Maignardi/MaigSecurityCrypto/tags)
 
 </td>
 </tr>
