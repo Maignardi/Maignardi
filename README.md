@@ -1,10 +1,6 @@
 <div align="center">
 
-# Hi, I'm Matheus Maignardi 👋
-
-### Mobile Engineer · Android · iOS · React Native · Flutter
-
-**I build mobile apps for millions of users and open-source tools that keep them secure.**
+<img src="./banner.svg" alt="Matheus Maignardi - Mobile Engineer" width="100%" />
 
 <a href="https://www.linkedin.com/in/matheus-maignardi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:mmaignardi@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
@@ -77,10 +73,10 @@ Android **binary hardening suite** that goes beyond R8/ProGuard.
 | Project | What it is | Stack |
 |---|---|---|
 | [**KMP To-Do List**](https://github.com/Maignardi/KMP_TO_DO_LIST) | Kotlin Multiplatform app sharing UI between Android and iOS | Kotlin · Compose Multiplatform |
-| [**Recorder**](https://github.com/Maignardi/Recorder) | Android audio recorder with a background recording service and audio trimming | Kotlin · MediaRecorder |
+| [**Recorder**](https://github.com/Maignardi/Recorder) | Voice recorder with **AI transcription and summaries** (Whisper + Llama via Groq), waveform, trimming and folders | Kotlin · Clean Architecture · Hilt · Room |
 | [**NFC Reader**](https://github.com/Maignardi/NFC-READER) | Reads and parses NFC tags on Android | Kotlin · NFC |
-| [**Apple Watch Work Timer**](https://github.com/Maignardi/AppleWatchWorkTimer) | Work-hours timer for Apple Watch | Swift · watchOS |
-| [**Watch ↔ Mobile Stopwatch**](https://github.com/Maignardi/stopwatch_watch_connection_to_mobile) | Stopwatch synced between Wear OS and phone | Kotlin · Wear OS |
+| [**Apple Watch Work Timer**](https://github.com/Maignardi/AppleWatchWorkTimer) | Apple Watch app that tells you when your workday ends | Swift · SwiftUI · watchOS |
+| [**Watch ↔ Mobile Stopwatch**](https://github.com/Maignardi/stopwatch_watch_connection_to_mobile) | Wear OS stopwatch synced with the phone via the Wearable Data Layer | Kotlin · Compose for Wear OS |
 | [**Movies Streaming**](https://github.com/Maignardi/moviesStreaming) | Movie catalog and streaming UI | Kotlin · Jetpack Compose |
 
 ---
