@@ -64,6 +64,28 @@ Android **binary hardening suite** that goes beyond R8/ProGuard.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🔐 [MaigSecurityCrypto](https://github.com/Maignardi/MaigSecurityCrypto)
+
+**Kotlin Multiplatform** replacement for the deprecated `EncryptedSharedPreferences` and `EncryptedFile` (Android, iOS and JVM).
+
+- Envelope encryption: **AndroidKeyStore / StrongBox** master key wrapping a **Google Tink** keyset, iOS Keychain on Apple platforms
+- Authenticated binary format that blocks file swapping, truncation and algorithm downgrade attacks
+- Reactive, type-safe preferences and `@Serializable` object stores built on **Jetpack DataStore**
+- Automatic key rotation, biometric binding, secure wipe and migration from legacy `SharedPreferences`
+- Nothing leaks to cloud backups by default
+
+![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-API_23+-3DDC84?style=flat-square&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Tink](https://img.shields.io/badge/Google_Tink-4285F4?style=flat-square&logo=google&logoColor=white)
+![DataStore](https://img.shields.io/badge/Jetpack_DataStore-4285F4?style=flat-square&logo=android&logoColor=white)
+[![JitPack](https://jitpack.io/v/Maignardi/MaigSecurityCrypto.svg)](https://jitpack.io/#Maignardi/MaigSecurityCrypto)
+
+</td>
+</tr>
 </table>
 
 ---
