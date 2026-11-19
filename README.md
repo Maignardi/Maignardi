@@ -15,7 +15,7 @@
 - 📱 **5+ years** shipping native and cross-platform apps on Android, iOS and the web
 - 🎙️ Currently building **Motorola's Audio Recorder** app (Instituto Eldorado)
 - 💳 Previously worked on **Samsung Wallet** (SiDi), **Localiza** (iOS) and **Méliuz** (React Native)
-- 🔐 Deep interest in **mobile security**: RASP, anti-tampering, obfuscation and hardware-backed crypto
+- 🔐 Building an open-source **mobile security toolkit**: RASP, binary hardening, encrypted storage and hardware-backed transaction signing
 - 🚀 Built **Alting Social** from zero to production on iOS, Android and Web as a side project
 - 🎓 B.Sc. in Computer Science · Postgraduate studies in High-Performance Computing
 
@@ -23,7 +23,49 @@
 
 ## ⭐ Featured open source
 
+Four Android/KMP security libraries that cover the full stack of a banking app (the binary, the device, local storage and every signed transaction), plus a design system for Jetpack Compose.
+
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### ✍️ [MaigBind](https://github.com/Maignardi/MaigBind-Lib) <sup>🆕</sup>
+
+**Hardware-backed biometric transaction signing and device binding** for banking and fintech apps, with a server-side verifier.
+
+- Replaces `BiometricPrompt` without `CryptoObject` (bypassable with a one-line Frida hook) with an end-to-end cryptographic protocol
+- Every sensitive operation is signed by a non-exportable **StrongBox/TEE** P-256 key, unlocked by strong biometrics, over **deterministic CBOR** bytes
+- JVM verifier: Google **Key Attestation** chain + CRL revocation, `hardwareEnforced` policy checks, app identity binding and single-use nonces
+- Enrollment with immediate Proof-of-Possession, crash-safe key rotation and device revocation
+- Ships with a Ktor reference backend, a Compose demo app, a threat model and a Frida attack suite
+
+![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android_Keystore-3DDC84?style=flat-square&logo=android&logoColor=white)
+![JVM verifier](https://img.shields.io/badge/JVM_verifier-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=flat-square&logo=ktor&logoColor=white)
+![Frida](https://img.shields.io/badge/Frida_attack_suite-F05032?style=flat-square)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 [MaigUI](https://github.com/Maignardi/MaigUI) <sup>🆕</sup>
+
+**Bootstrap-style design system** for Jetpack Compose: one dependency, wrap your app in `MaigTheme {}` and ship a consistent UI everywhere.
+
+- **45+ components** built on `compose.foundation`, with no Material 3 visual lock-in
+- One brand color generates full light/dark palettes with **WCAG AA** contrast (OKLCH), plus 10 presets
+- Declarative forms with validation and Brazilian masks (**CPF, CNPJ, CEP, phone, BRL**)
+- Bundled Inter typography, catalog app and [interactive docs](https://maignardi.github.io/MaigUI/)
+- `explicitApi`, binary-compatibility checks and **Roborazzi** light/dark screenshot tests
+
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Design System](https://img.shields.io/badge/Design_System-111827?style=flat-square)
+[![JitPack](https://jitpack.io/v/Maignardi/MaigUI.svg)](https://jitpack.io/#Maignardi/MaigUI)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
